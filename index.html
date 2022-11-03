@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Bangla Bijoy to Unicode Converter - TrickBuzz</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla Bijoy to Unicode Converter - TrickBuzz</title>
+    <meta name="title" content="Bangla Bijoy to Unicode Converter">
+    <meta name="description"
+        content="TrickBuzz is a website where you can post questions. You can answer the question if you know the answer!">
+    <meta name="keywords" content="TrickBuzz,trickbuzz,rironib,RONiB,ronib,RONiB Inc." />
+    <meta name="Developed By" content="TrickBuzz" />
+    <meta name="distribution" content="Global" />
+    <meta name="robots" content="ALL" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trickbuzz.net/">
+    <meta property="og:title" content="Bangla Bijoy to Unicode Converter">
+    <meta property="og:description"
+        content="TrickBuzz is a website where you can post questions. You can answer the question if you know the answer!">
+    <meta property="og:image" content="https://trickbuzz.net/social-image.webp">
+    <meta property="fb:app_id" content="223622535620471" />
+    <meta property="fb:admins" content="100018333529232" />
+    <meta property="fb:pages" content="102280692211884" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://trickbuzz.net/">
+    <meta property="twitter:title" content="Bangla Bijoy to Unicode Converter">
+    <meta property="twitter:description"
+        content="TrickBuzz is a website where you can post questions. You can answer the question if you know the answer!">
+    <meta property="twitter:image" content="https://trickbuzz.net/social-image.webp">
+
+    <!-- Webmaster Tools -->
+    <meta name="google-site-verification" content="9jRPYadogvgTZdJ3m-MAyYng-VBgQEnEwvNd0Sg6an0" />
+
+    <!-- Scripts -->
+    <script src="web-assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="converter-assets/js/bijoy2uni.js"></script>
+    <script type="text/javascript" src="converter-assets/js/common.js"></script>
+    <script type="text/javascript" src="converter-assets/js/count.js"></script>
+    <script type="text/javascript" src="converter-assets/js/js.js"></script>
+    <script type="text/javascript" src="converter-assets/js/js1.js"></script>
+    <script type="text/javascript" src="converter-assets/js/layout.js"></script>
+    <script type="text/javascript" src="converter-assets/js/uni2bijoy.js"></script>
+
+    <!-- Stylesheets -->
+    <link type="text/css" href="web-assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="converter-assets/css/center160e.css" />
+    <link rel="stylesheet" type="text/css" href="web-assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="web-assets/fonts/font-awesome.min.css">
+</head>
+
+<body>
+    <table class="w-100 mr-auto bg-light converter" border="0" align="center">
+        <tr>
+            <td width="720px" align="center">
+                <table width="950px" border="0">
+                    <form name="myForm" action="#" method="post">
+                        <tr>
+                            <td align="center" height="80" valign="middle">
+                                <Div style="margin:20px 0 10px 0;">
+                                    <a href="/">
+                                        <img src="web-assets/img/logo-red1.png" alt="TrickBuzz">
+                                    </a>
+                                </div>
+                                <p style="font-size:16px; font-family:SolaimanLipi; display:block; margin-bottom:20px;">
+                                    সহজেই কনভার্ট করুন বাংলা ফন্ট</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <TEXTAREA class="unicode_textarea p-3" onKeyPress="return KeyBoardPress(event);"
+                                        id=EDT onKeyDown="return KeyBoardDown(event);" name="textarea"
+                                        onBlur="InputLengthCheck();" onKeyUp="InputLengthCheck();" autofocus="autofocus"
+                                        value="" placeholder="ইউনিকোড কি-বোর্ডের লেখা এখানে পেস্ট করুন"></TEXTAREA>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="60px" valign="middle">
+                                <div class="convert_button_left p-2">
+                                    <button type="button" class="bijoy_button btn btn-primary"
+                                        onClick="ConvertToTextArea('CONVERTEDT');" name="ConvertToAsciiButton">
+                                        <span class="fa fa-arrow-down" aria-hidden="true"></span> ইউনিকোড টু বিজয়
+                                    </button>
+                                    <button type="button" class="unicode_button btn btn-success"
+                                        onClick="ConvertFromTextArea('CONVERTEDT');" name="ConvertButton">
+                                        <span class="fa fa-arrow-up" aria-hidden="true"></span> বিজয় টু ইউনিকোড
+                                    </button>
+                                    <button type="reset" class="reset_button btn btn-danger m-1 m-sm-1 m-md-0"
+                                        name=ClearButton>
+                                        <span class="fa fa-refresh" aria-hidden="true"></span> মুছে ফেলুন </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <input readonly type="hidden" name="CharsTyped" size="2"
+                                        style="font-weight:bold; border: 0px solid #2D69AE; color:#808080; text-align:left;">
+                                    <input readonly type="hidden" name="WordsTyped" size="3"
+                                        style="font-weight:bold; border: 1px solid #2D69AE; color:#808080; text-align:right;">
+                                    <input readonly type="hidden" name="CharsLeft" size="8">
+                                    <input readonly type="hidden" name="WordsLeft" size="8">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <div>
+                                    <TEXTAREA class="bijoy_textarea p-3" id="CONVERTEDT" autofocus value=""
+                                        placeholder="বিজয় কি-বোর্ডের লেখা এখানে পেস্ট করুন"></TEXTAREA>
+                                </div>
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
