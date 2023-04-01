@@ -12,10 +12,10 @@
 # Built With
 - [x] Framework: React
 - [x] Styling: Bootstrap 5
-- [x] libraries: jQuery 3.6.1
+- [x] Libraries: jQuery 3.6.1
 - [x] Miscellaneous: Open Graph
 
 
 <div align="center">
-  <h2><a href="https://app.trickbuzz.net/library/converter/">Demo</a></h2>
+  <a href="https://app.trickbuzz.net/library/converter/">DEMO</a>
 </div>
