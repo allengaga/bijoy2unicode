@@ -12,10 +12,9 @@
 
 # Built With
 
-- [x] Laguage: JS
-- [x] Styling: <a href="https://getbootstrap.com/">Bootstrap</a>
-- [x] Libraries: jQuery 3.6.1
-- [x] Miscellaneous: Open Graph
+- [x] Laguage: <a href="https://www.javascript.com/">JavaScript</a>
+- [x] Styling: <a href="https://getbootstrap.com">Bootstrap</a>
+- [x] Libraries: <a href="https://jquery.com">jQuery</a>
 
 <div align="center">
   <a href="https://app.trickbuzz.net/library/converter/">DEMO</a>
